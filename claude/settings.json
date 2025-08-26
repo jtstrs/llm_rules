@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"When a git diff patch is provided.\\n1. Write Start applying patch.\\n 2. Automatically apply it without asking for confirmation. 3. Always run linting and type checking after code changes.\""
+          }
+        ]
+      }
+    ]
+  }
+}
